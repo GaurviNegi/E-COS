@@ -1,0 +1,83 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.container label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #555;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-item h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #444;
+}
+
+.user-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.user-item p span {
+    font-weight: bold;
+}
+
+
+.button-group{
+    display:flex;
+    gap: 5px;
+}
+
+
+.container .button-group button{
+    background-color: red;
+    color: white;
+    border-radius:50%;
+}

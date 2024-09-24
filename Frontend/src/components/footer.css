@@ -1,0 +1,10 @@
+/* Footer.css */
+.footer {
+    background-color: #333; /* Match the navbar color */
+    color: #fff; /* White text */
+    padding: 15px;
+    text-align: center; /* Center the text */
+    
+    height:30px;
+  }
+  
